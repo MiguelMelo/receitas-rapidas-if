@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  margin: 0 10px 20px 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #E100FF;
+}
+
+.menu-item-active {
+  background-color: #E100FF;
+}
+
+.section {
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.home-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.receitas-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contato-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sobre-content {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  align-self: center;
+  font-family: 'Lobster', sans-serif;
+  color: white;
+  font-size: 44px;
+}
+
+.coming-soon {
+  align-self: center;
+  font-family: 'Lobster', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.logo-github {
+  width: 60px;
+  height: 60px;
+}
+
+.logo-github:hover {
+  width: 62px;
+  height: 62px;
+  color: #000;
+  text-align: center;
+}
